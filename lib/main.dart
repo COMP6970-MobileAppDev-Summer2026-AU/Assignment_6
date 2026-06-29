@@ -7,7 +7,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'providers/scan_provider.dart';
-import 'screens/home_screen.dart';
+import 'screens/front_screen.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
@@ -29,7 +29,7 @@ class ScanLogApp extends StatelessWidget {
       title: 'ScanLog',
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(
-          seedColor: const Color(0xFF1E6B4A),  // deep forest green
+          seedColor: const Color(0xFF1E6B4A),
           brightness: Brightness.light,
         ),
         useMaterial3: true,
@@ -41,7 +41,8 @@ class ScanLogApp extends StatelessWidget {
         ),
         useMaterial3: true,
       ),
-      home: const HomeScreen(),
+      // Always start at FrontScreen — shows dev info + known issues
+      home: const FrontScreen(),
     );
   }
 }
