@@ -14,9 +14,11 @@
 
 ## 🎬 App Demo Video
 
-> *Record and add your YouTube demo link here*
+[![ScanLog — On-Device ML Text Recognition Demo](https://img.youtube.com/vi/5y4LfkeDY0A/maxresdefault.jpg)](https://youtu.be/5y4LfkeDY0A)
+
+> **▶️ [Watch Full Demo on YouTube](https://youtu.be/5y4LfkeDY0A)**
 >
-> Complete walkthrough: Launch → Scan image → OCR result → Edit text → Add note → Save → Filter → Detail → Edit → Delete
+> Complete walkthrough: Front screen → Scan image → Apple Vision OCR → Edit text → Add note → Save → Filter → Detail → Edit → Delete
 
 ---
 
