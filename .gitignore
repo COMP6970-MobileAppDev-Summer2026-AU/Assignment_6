@@ -1,0 +1,114 @@
+# =============================================================================
+# .gitignore — ScanLog Flutter Project
+# COMP 6910 Assignment 6 — Jahidul Arafat (JAJI)
+# =============================================================================
+
+# ── Flutter / Dart ────────────────────────────────────────────────────────────
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+*.dart_snapshot
+
+# ── Generated files ───────────────────────────────────────────────────────────
+lib/generated_plugin_registrant.dart
+*.g.dart
+*.freezed.dart
+*.mocks.dart
+
+# ── iOS ──────────────────────────────────────────────────────────────────────
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/App.framework
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/Flutter/Generated.xcconfig
+ios/Flutter/flutter_export_environment.sh
+ios/Flutter/ephemeral/
+ios/Runner/GeneratedPluginRegistrant.h
+ios/Runner/GeneratedPluginRegistrant.m
+*.xcworkspace/xcuserdata/
+*.xcodeproj/project.xcworkspace/xcuserdata/
+DerivedData/
+
+# ── macOS ─────────────────────────────────────────────────────────────────────
+macos/Pods/
+macos/.symlinks/
+macos/Flutter/GeneratedPluginRegistrant.swift
+macos/Flutter/Flutter-Debug.xcconfig
+macos/Flutter/Flutter-Release.xcconfig
+macos/Flutter/ephemeral/
+macos/Runner/GeneratedPluginRegistrant.swift
+
+# ── Android ───────────────────────────────────────────────────────────────────
+android/.gradle/
+android/captures/
+android/gradlew
+android/gradlew.bat
+android/local.properties
+android/**/GeneratedPluginRegistrant.java
+android/key.properties
+**/*.keystore
+**/*.jks
+
+# ── Web ───────────────────────────────────────────────────────────────────────
+lib/generated_plugin_registrant.dart
+
+# ── macOS system ─────────────────────────────────────────────────────────────
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+Thumbs.db
+
+# ── IDE / Editor ─────────────────────────────────────────────────────────────
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.history/
+.metals/
+.bloop/
+
+# ── Environment / Secrets ────────────────────────────────────────────────────
+.env
+.env.*
+*.pem
+*.p12
+*.p8
+*-key.json
+google-services.json
+GoogleService-Info.plist
+firebase_options.dart
+
+# ── Test coverage ─────────────────────────────────────────────────────────────
+coverage/
+*.lcov
+
+# ── Logs ──────────────────────────────────────────────────────────────────────
+*.log
+pubspec.lock
+
+# ── Compiled / output ─────────────────────────────────────────────────────────
+*.class
+*.pyc
+*.pyo
+dist/
+*.egg-info/
